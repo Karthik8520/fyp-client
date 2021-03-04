@@ -1,0 +1,15 @@
+#head-div{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: cursive;
+}
+
+
+
+#head-div a{
+    color: red;
+    text-underline-position: unset;
+}
+

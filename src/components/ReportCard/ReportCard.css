@@ -1,0 +1,24 @@
+.report-card{
+    margin-left: 2rem;
+    width:40vw;
+    border-style: solid;
+    /* border-width: 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none; */
+    border-width: 1px;
+    border-color: beige;
+    margin:2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #dddddd;
+    color: black;
+    font-weight: bolder;
+    opacity: 0.8;
+}
+
+.report-card-grid{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-column-gap: 10px;
+}

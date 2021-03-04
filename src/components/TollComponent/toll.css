@@ -1,0 +1,19 @@
+#toll-comp button{
+    margin-top: 1rem;
+}
+
+#toll-comp{
+    background-color: #26001b;
+    height: 100vh;
+    width: 100vw;
+    color: beige;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#toll-page-div{
+    /* margin-left: 1rem;
+    margin-right: 2rem; */
+}

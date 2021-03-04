@@ -1,0 +1,73 @@
+.veh-grid{
+    display: grid;
+    width: 40vw;
+    margin-left: 1rem;
+    grid-template-columns: 30% 70%;
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+}
+
+#vehicle-page-div{
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    background-image: url("../../spy.jpg");
+    background-size: cover; /* or contain depending on what you want */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin:auto;
+}
+
+.stolen-veh-grid .veh-grid {
+    margin-left: 2rem;
+    width: 45vw;
+    grid-template-columns: 30% 70%;   
+}
+
+.stolen-veh-grid{
+    margin-top: 2rem;
+}
+
+.stolen-veh-grid b{
+    color: red;
+}
+
+
+.veh-grid p{
+    margin-bottom: 0px;
+}
+
+#steal-veh-data{
+    width: 60vw;
+}
+
+#steal-veh-data button{
+    background-color: red;
+    color: wheat;
+    font-weight: bolder;
+    margin-top: 2rem;
+    width: 10rem;
+    height: 2rem;
+}
+
+#base-veh-data button{
+    background-color: green;
+    color: wheat;
+    font-weight: bolder;
+    margin-top: 2rem;
+    width: 10rem;
+    height: 2rem;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.total-veh-card{
+    padding: 1rem;
+    background-color: #dddddd;
+    width: 70vw;
+    border-radius: 2rem;
+}
+
+
+

@@ -1,0 +1,20 @@
+#police-home{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    background-image: url("../../police.jpg");
+    background-attachment: fixed;
+    padding-bottom: 1rem;
+    background-size: cover; /* or contain depending on what you want */
+    color:beige;
+    font-weight: bolder;
+}
+
+#top-police-home{
+    display: flex;
+    justify-content: left;
+}
+
+#top-police-home button{
+    margin-left: 5px;
+}

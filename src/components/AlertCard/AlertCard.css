@@ -1,0 +1,18 @@
+.alert-card-div{
+    width: 70vw;
+    border-style: solid;
+    border-width: 1px;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: #f4f9f9;
+}
+
+#alert-page-card-div{
+    padding-left: 1rem;
+    background-color: #e7e6e1;
+    height: 100vh;
+}
+
+#alert-page-card-div h1{
+    margin-top: 0px;
+}

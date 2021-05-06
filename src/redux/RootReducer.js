@@ -1,9 +1,11 @@
-import {combineReducers} from "redux"
-import userReducer from "./userReducer/userReducer"
+import {combineReducers} from "redux";
+import userReducer from "./userReducer/userReducer";
+import otpReducer from "./otpReducer/otp_Reducer";
 
 
 const rootReducer = combineReducers({
-    currentUser : userReducer
+    currentUser : userReducer,
+    otpUser : otpReducer
 })
 
 

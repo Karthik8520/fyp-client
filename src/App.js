@@ -4,6 +4,7 @@ import TollBoothPage from "./components/page/Toll-Booth.page"
 import PoliceStationPage from "./components/page/Police-station.page"
 import VehiclePage from "./components/page/Vehicle.page"
 import AlertsPage from "./components/page/AlertsPage"
+import OTPpage from "./components/page/OTPverfication.page"
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route exact path="/tollPage" component={TollBoothPage} />
           <Route exact path="/vehicle/:number" component={VehiclePage} />
           <Route exact path="/alerts" component={AlertsPage} />
+          <Route exact path="/otp" component={OTPpage} />
         </Switch>
       </div>
     </BrowserRouter>

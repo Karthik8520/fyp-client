@@ -8,6 +8,7 @@
     background-size: cover; /* or contain depending on what you want */
     color:beige;
     font-weight: bolder;
+    /* height: 100vh; */
 }
 
 #top-police-home{

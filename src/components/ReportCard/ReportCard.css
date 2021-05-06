@@ -6,8 +6,10 @@
     border-top: none;
     border-left: none;
     border-right: none; */
-    border-width: 1px;
-    border-color: beige;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    /* border-color: beige; */
     margin:2rem;
     padding: 1rem;
     border-radius: 1rem;
@@ -15,6 +17,11 @@
     color: black;
     font-weight: bolder;
     opacity: 0.8;
+}
+
+.report-card:hover{
+    background-color: black;
+    color:cornsilk;
 }
 
 .report-card-grid{

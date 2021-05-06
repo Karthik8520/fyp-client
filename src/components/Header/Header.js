@@ -14,7 +14,7 @@ const Header = (props)=>{
     return (
         <div id="head-div">
             <div>
-                <h1>V-Track</h1>
+                <h1>Ve-Track</h1>
             </div>
 
             <div>
